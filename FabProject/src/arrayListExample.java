@@ -15,8 +15,9 @@ public class arrayListExample {
 		System.out.println(a.get(2));
 		System.out.println(a.contains("java"));
 		System.out.println(a.indexOf("rahul"));
-		System.out.println(a.isEmpty());
-		System.out.println(a.size());
+		System.out.println(a.contains("MAHDU"));
+		System.out.println(a.indexOf("PARAM"));
+		System.out.println(a.indexOf("PARAM"));
 		
 		
 	}
