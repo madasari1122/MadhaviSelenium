@@ -1,0 +1,29 @@
+package test;
+
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class day1 {
+
+
+		// TODO Auto-generated method stub
+	@AfterSuite
+    public void lastexecution()
+    {
+   	 System.out.println("i will execute last");
+    
+	}
+	@Test
+     public void Demo()
+     {
+    	 System.out.println("hello");
+     
+	}
+	@Test
+	public void secondTest()
+	{
+		 System.out.println("bye");
+	}
+
+}

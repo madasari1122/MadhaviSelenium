@@ -1,0 +1,25 @@
+package test;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+
+public class day4 {
+	@Test
+	public void Webloginhomeloan() {
+		System.out.println("webloginhome");
+	}
+
+	@Test
+	public void MobileLoginhomeloan() {
+		System.out.println("mobileloginhome");
+	}
+
+	@Test
+	public void LoginAPIhomeloan() {
+		System.out.println("APIloginhome");
+	}
+	@AfterClass
+	public void afterclas() {
+		System.out.println("i will execute last in day4 class");
+	}
+}

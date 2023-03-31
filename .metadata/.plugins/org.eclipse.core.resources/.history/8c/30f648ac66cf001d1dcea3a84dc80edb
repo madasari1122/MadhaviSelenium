@@ -1,0 +1,11 @@
+package test;
+
+import org.testng.ITestListener;
+
+//Itest listeners which implements testng listeners
+public class Listeners implements ITestListener {
+
+	public void onTestSuccess() {
+		System.out.println("Test successfulusing listeners pass code");
+	}
+}

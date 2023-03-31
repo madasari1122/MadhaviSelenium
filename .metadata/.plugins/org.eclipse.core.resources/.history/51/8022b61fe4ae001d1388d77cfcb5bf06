@@ -1,0 +1,12 @@
+
+public class FabIntro1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\USER\Downloads\\chromedriver_win32\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+
+	}
+
+}
